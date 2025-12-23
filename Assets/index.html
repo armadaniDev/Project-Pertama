@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SMK RUS - Landing</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="brand">
+      <img src="IMG/smkRus.png" alt="logo" />
+      <div>
+        <div class="title">SMK RUS</div>
+        <div class="sub">Sekolah Menengah Kejuruan</div>
+      </div>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#program">Program Keahlian</a></li>
+        <li><a href="#prestasi">Prestasi</a></li>
+        <li><a href="#keunggulan">Keunggulan</a></li>
+        <li><a href="#fasilitas">Fasilitas</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <!-- Beranda -->
+  <section id="beranda" class="container">
+    <div class="hero">
+      <div class="left">
+        <h1>Selamat Datang di SMK RUS</h1>
+        <p class="lead">SMK RUS membentuk lulusan kompeten, kreatif, dan siap menghadapi dunia industri melalui praktik dan kolaborasi dengan DUDI.</p>
+        <a class="btn-cta" href="#program">Lihat Program Keahlian</a>
+      </div>
+      <img src="https://image.idn.media/post/20200225/gedung-rus-b630468d8db9102455c4e70728fac4c7.jpg" alt="Foto sekolah" />
+    </div>
+  </section>
+
+  <!-- Program Keahlian -->
+  <section id="program" class="container">
+    <h2>Program Keahlian</h2>
+    <p class="lead">Klik salah satu program untuk melihat deskripsi, foto, dan jumlah murid (animasi typing).</p>
+
+    <div class="prog-list">
+      <div class="prog-item" data-target="pplg">PPLG</div>
+      <div class="prog-item" data-target="animasi2d">Animasi 2D</div>
+      <div class="prog-item" data-target="animasi3d">Animasi 3D</div>
+      <div class="prog-item" data-target="grafika">Teknik Grafika</div>
+      <div class="prog-item" data-target="desain">Desain Grafika</div>
+    </div>
+
+    <!-- panels (hidden until clicked) -->
+    <div id="pplg" class="prog-panel">
+      <img src="https://smkn3semarang.sch.id/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-19-at-12.20.34-PM.jpeg" alt="PPLG">
+      <div class="prog-info">
+        <h4>PPLG</h4>
+        <p>Program Pilihan: Pemrograman & Pengembangan Aplikasi. Fokus praktikum dan proyek industri.</p>
+        <div>Jumlah murid: <span class="student-count" data-count="128">0</span></div>
+      </div>
+    </div>
+
+    <div id="animasi2d" class="prog-panel">
+      <img src="https://smkrus.sch.id/wp-content/uploads/2024/08/DSC05776-e1723008594147-1024x684.jpg.webp" alt="Animasi 2D">
+      <div class="prog-info">
+        <h4>Animasi 2D</h4>
+        <p>Belajar ilustrasi frame-by-frame, storyboarding, dan produksi animasi pendek.</p>
+        <div>Jumlah murid: <span class="student-count" data-count="46">0</span></div>
+      </div>
+    </div>
+
+    <div id="animasi3d" class="prog-panel">
+      <img src="https://cdn0-production-assets-kly.akamaized.net/medias/1516865/big/027938700_1487833932-673x373.jpg" alt="Animasi 3D">
+      <div class="prog-info">
+        <h4>Animasi 3D</h4>
+        <p>Modelling, rigging, texturing, lighting, dan pipeline produksi 3D.</p>
+        <div>Jumlah murid: <span class="student-count" data-count="34">0</span></div>
+      </div>
+    </div>
+
+    <div id="grafika" class="prog-panel">
+      <img src="https://smkrus.sch.id/wp-content/uploads/2024/08/DSCF2109.jpg" alt="Teknik Grafika">
+      <div class="prog-info">
+        <h4>Teknik Grafika</h4>
+        <p>Proses cetak, finishing, dan produksi materi grafis skala industri.</p>
+        <div>Jumlah murid: <span class="student-count" data-count="52">0</span></div>
+      </div>
+    </div>
+
+    <div id="desain" class="prog-panel">
+      <img src="https://smkrus.sch.id/wp-content/uploads/2024/08/DSCF2264.jpg" alt="Desain Grafika">
+      <div class="prog-info">
+        <h4>Desain Grafika</h4>
+        <p>Branding, layout, visual identity, dan desain digital untuk media.</p>
+        <div>Jumlah murid: <span class="student-count" data-count="61">0</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prestasi -->
+  <section id="prestasi" class="container">
+    <h2>Prestasi</h2>
+    <p class="lead">Prestasi siswa yang membanggakan — klik kartu untuk lihat detail.</p>
+
+    <div class="cards">
+      <div class="card" data-title="IT SOFTWARE" data-desc="IT SOFTWARE SOLUTIONS FOR BUSINESSES" data-img="IMG/asi.jpg">
+        <img src="IMG/asi.jpg" alt="prestasi 1">
+        <strong>LKS SMK</strong>
+      </div>
+
+      <div class="card" data-title="KOMPUTASI" data-desc="CLOUD COMPUTING" data-img="IMG/est.jpg">
+        <img src="IMG/est.jpg" alt="prestasi 2">
+        <strong>LKS SMK</strong>
+      </div>
+
+      <div class="card" data-title="DESAIN GRAFIS" data-desc="GRAPHIC DESIGN TECHNOLOGY" data-img="IMG/Pre.jpg">
+        <img src="IMG/Pre.jpg" alt="prestasi 3">
+        <strong>LKS SMK</strong>
+      </div>
+    </div>
+
+    <!-- modal for prestasi -->
+    <div class="modal" id="prestasiModal">
+      <div class="box">
+        <button class="close" id="closePrestasi">×</button>
+        <h4 id="modalTitle">Judul</h4>
+        <p id="modalDesc">Deskripsi</p>
+        <img id="modalImg" src="" alt="" style="width:100%;border-radius:8px;margin-top:12px;" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Keunggulan -->
+  <section id="keunggulan" class="container">
+    <h2>Keunggulan</h2>
+    <p class="lead">Alasan memilih SMK RUS — kolaborasi industri, fasilitas modern, dan program praktik.</p>
+    <div class="features">
+      <div class="fea-item">Kerjasama DUDI & Magang</div>
+      <div class="fea-item">Laboratorium & Studio</div>
+      <div class="fea-item">Pelatihan Softskill</div>
+      <div class="fea-item">Sertifikasi Kompetensi</div>
+    </div>
+  </section>
+
+  <!-- Fasilitas -->
+  <section id="fasilitas" class="container">
+    <h2>Fasilitas</h2>
+    <p class="lead">Pilih fasilitas untuk melihat gambar dan keterangan.</p>
+    <div class="fac-grid">
+      <div class="fac-list">
+        <div class="fac-thumb" data-img="https://www.rus-animation.com/web/public/storage/home/images/home-5.jpg" data-desc="Lab Komputer lengkap dengan 30 PC untuk praktik jaringan dan multimedia">Tribun</div>
+        <div class="fac-thumb" data-img="https://www.rus-animation.com/web/public/storage/home/images/home-1.jpg" data-desc="Lab Animasi dengan tablet graphics & workstation">Studio Animasi</div>
+        <div class="fac-thumb" data-img="https://smkrus.sch.id/wp-content/uploads/2024/08/DSCF2252-1024x683.jpg.webp" data-desc="Studio Desain untuk produksi materi cetak dan digital">Studio Desain</div>
+      </div>
+      <div class="fac-display" id="facDisplay">
+        <div class="fac-empty">Pilih fasilitas di sebelah kiri.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="container">
+    <h2>Kontak</h2>
+    <div class="contact">
+      <p>Email: info@smkrus.sch.id</p>
+      <p>Telepon: (021) 1234-5678</p>
+      <p>Alamat: Jl. Pendidikan No.45, Kota Contoh</p>
+      <p>Instagram: @smkrus | Facebook: SMK RUS</p>
+    </div>
+  </section>
+
+  <footer>
+    <p style="text-align:center;padding:18px 0;color:#64748b">© 2025 SMK RUS. All rights reserved.</p>
+  </footer>
+
+  <script src="JS/main.js"></script>
+</body>
+</html>
